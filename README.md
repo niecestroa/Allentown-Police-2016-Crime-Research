@@ -33,3 +33,7 @@ This project analyzes public perceptions of male and female police officers usin
 ## Author
 
 **Aaron Niecestro**
+
+## Supervisor
+
+**Dr. Eugene Fiorini**
