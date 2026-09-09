@@ -1,50 +1,66 @@
-# **Crime Analysis Research Summary**
+# **Allentown Police Department – 2016 Crime Research Project**
 
-**Public Perception of Male vs. Female Police Officers (USA)**
+## **Overview**
+This repository contains an undergraduate applied‑statistics research project analyzing crime patterns, police activity, and community‑level trends in **Allentown, Pennsylvania** during **2016**. The work focuses on descriptive and inferential statistical methods applied to publicly available police incident data, with an emphasis on understanding crime distribution, temporal patterns, and neighborhood‑level variation.
 
-## **Timeline**  
-Research and analysis conducted from **June 2016 to May 2017** as part of an undergraduate applied statistics project.
-
----
-
-## **Overview**  
-This project investigates public perceptions of male and female police officers using survey data collected from respondents across the **United States**. The goal is to evaluate whether views on police performance differ by officer sex and to compare community sentiment with common media narratives.
+The project was completed as part of an academic research sequence in applied statistics and data analysis.
 
 ---
 
-## **Methodology**
-
-### **Data & Tools**
-- Data preparation and visualization in **R**
-- Exploratory analysis using summary statistics and plots
-
-### **Statistical Methods**
-- **Cochran–Mantel–Haenszel (CMH)** tests  
-- **Chi‑squared** tests for association  
-These methods were used to assess whether perceptions varied across demographic groups and officer sex.
+## **Objectives**
+- Examine crime incident patterns across Allentown during 2016  
+- Identify temporal trends (daily, weekly, monthly)  
+- Explore geographic clustering and neighborhood‑level variation  
+- Apply statistical methods to evaluate relationships between incident types, time, and location  
+- Produce visualizations to support exploratory and descriptive insights  
 
 ---
 
-## **Key Findings**
-- Most survey responses showed **minimal differences** in perception based on officer sex.  
-- Where differences appeared, they were **context‑specific** rather than broad or systematic.  
-- Community perceptions were generally **more balanced** than media portrayals suggest.
+## **Data Sources**
+- **Allentown Police Department – 2016 Incident Data**  
+  Publicly available crime and police activity records  
+- **Supplementary datasets**  
+  Neighborhood boundaries, census‑based demographic context (where applicable)
 
 ---
 
-## **Tools**
-- R / RStudio  
-- CMH and Chi‑squared tests  
+## **Methods & Tools**
+
+### **Software**
+- **R / RStudio**  
+- Tidyverse packages for data cleaning and manipulation  
+- ggplot2 for visualization  
+
+### **Statistical Techniques**
+- Summary statistics and exploratory data analysis  
+- Frequency and distribution analysis  
+- Temporal trend evaluation  
+- Geographic pattern exploration (non‑GIS, descriptive only)
 
 ---
 
-## **Author**  
+## **Key Findings (High‑Level Summary)**
+- Crime incidents showed **predictable temporal patterns**, including weekday vs. weekend variation.  
+- Certain neighborhoods experienced **higher concentrations** of specific incident types.  
+- Seasonal trends were present but **not uniform** across crime categories.  
+- Data quality and reporting practices introduced **limitations** that required careful interpretation.
+
+---
+
+## **Limitations**
+This project is **exploratory** and **academic**.  
+It does **not** represent professional crime‑analysis standards, nor does it attempt to make policy recommendations. Data quality constraints, limited tooling, and undergraduate‑level methods mean results should be interpreted cautiously.
+
+---
+
+## **Author**
 **Aaron Niecestro**
 
-## **Supervisor**  
+## **Supervisor**
 **Dr. Eugene Fiorini**
 
 ---
 
-## **Disclaimer (Undergraduate Academic Work)**  
-This project was completed as an **undergraduate research assignment** using early statistical methods and limited tooling. All analyses, interpretations, and visualizations are intended **solely for academic, educational, and historical demonstration**. The results must not be used for professional decision‑making, policy evaluation, or real‑world crime analysis.
+## **Academic Disclaimer**
+This research was completed as an **undergraduate academic project** using introductory statistical methods and publicly available data. All analyses, interpretations, and visualizations are intended **solely for educational and historical demonstration**.  
+They must **not** be used for operational decision‑making, policing strategy, or real‑world crime analysis.
